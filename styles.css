@@ -64,3 +64,20 @@ background: inherit;
 footer{
      text-align: center;
 }
+
+#overlay, #overlay1, #overlay2, #overlay3{
+  display: none;
+  color: black;
+  width: 50%;
+  position:absolute;
+  background-color: white;
+  top: 110px;
+  left: 100px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Delius Swash Caps', cursive;
+  border-color: white;
+  border: solid;
+  padding-top: 0;
+}
