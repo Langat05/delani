@@ -7,7 +7,7 @@ $(document).ready(function () {
         $("#design").show();
         $("#design-image").show();
     });
-    
+
     $("#development-image").click(function () {
         $("#development-image").hide();
         $("#development").show();
@@ -25,8 +25,8 @@ $(document).ready(function () {
         $("#product").show();
         $("#product-image").show();
     });
-    
-/*Portfolio*/
+
+    /*Portfolio*/
 
     $("#project1").mouseover(function () {
         $("#overlay").show();
@@ -70,5 +70,18 @@ $(document).ready(function () {
     }).mouseout(function () {
         $("#overlay7").hide();
     });
-});
 
+    $("form#form").submit(function (event) {
+
+        var name = $("input#name").val();
+        var email = $("input#email").val();
+        var message = $("textarea#comment").val();
+        if ($("input#name").val() && $("input#email").val()) {
+            alert("Hey " + name + ", your message has been received. Thank you for reaching out to us.");
+        } else {
+            alert("Make sure you provide the correct details!");
+        }
+
+    });
+
+});
