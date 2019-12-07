@@ -25,34 +25,50 @@ $(document).ready(function () {
         $("#product").show();
         $("#product-image").show();
     });
-});
+    
+/*Portfolio*/
 
-$(document).ready(function () {
     $("#project1").mouseover(function () {
         $("#overlay").show();
     }).mouseout(function () {
         $("#overlay").hide();
     });
-});
-$(document).ready(function () {
+
     $("#project2").mouseover(function () {
         $("#overlay1").show();
     }).mouseout(function () {
         $("#overlay1").hide();
     });
-});
-$(document).ready(function () {
+
     $("#project3").mouseover(function () {
         $("#overlay2").show();
     }).mouseout(function () {
         $("#overlay2").hide();
     });
-});
-$(document).ready(function () {
     $("#project4").mouseover(function () {
         $("#overlay3").show();
     }).mouseout(function () {
         $("#overlay3").hide();
+    });
+    $("#project5").mouseover(function () {
+        $("#overlay4").show();
+    }).mouseout(function () {
+        $("#overlay4").hide();
+    });
+    $("#project6").mouseover(function () {
+        $("#overlay5").show();
+    }).mouseout(function () {
+        $("#overlay5").hide();
+    });
+    $("#project7").mouseover(function () {
+        $("#overlay6").show();
+    }).mouseout(function () {
+        $("#overlay6").hide();
+    });
+    $("#project8").mouseover(function () {
+        $("#overlay7").show();
+    }).mouseout(function () {
+        $("#overlay7").hide();
     });
 });
 
