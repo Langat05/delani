@@ -23,5 +23,11 @@
 - Bootstrap
 - jQuery
 
-# BDD
+## BDD
 - The user have to enter his or her name followed by an email. He or she can then write his or her message and submit it. On submition, the user will be notified through a popup message that their message has been received.
+
+## Bugs
+- mail chimp API does not function properly.
+
+## Contact Information
+- Any contribution to better this project can be sent to me through justuslangat78@gmail.com
