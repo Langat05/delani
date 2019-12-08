@@ -22,3 +22,6 @@
 - CSS
 - Bootstrap
 - jQuery
+
+# BDD
+- The user have to enter his or her name followed by an email. He or she can then write his or her message and submit it. On submition, the user will be notified through a popup message that their message has been received.
