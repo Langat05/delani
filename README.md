@@ -16,3 +16,9 @@
 - cd Delani
 
 - code . if you are using vs code and atom . if you are using windows
+
+## Technologies used
+- HTML5
+- CSS
+- Bootstrap
+- jQuery
