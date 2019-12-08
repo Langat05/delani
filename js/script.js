@@ -72,7 +72,6 @@ $(document).ready(function () {
     });
 
     $("form#form").submit(function (event) {
-
         var name = $("input#name").val();
         var email = $("input#email").val();
         var message = $("textarea#comment").val();
