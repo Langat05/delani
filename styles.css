@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swa');
+
 .jumbotron {
      background-image: url(images/backgrounds/h_img.jpg);
      text-align: center;
@@ -7,7 +9,7 @@
 .mouse{
 animation: pulse 5s infinite;
 padding-top: 2vh;
-animation-duration: 2s;
+animation-duration: 3s;
 animation-name: mymouse;
 }
 @keyframes mymouse{
