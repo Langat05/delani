@@ -78,19 +78,20 @@ footer {
      text-align: center;
 }
 
-#overlay,
-#overlay1,
+.imagehover:hover{
+     opacity: 0.3;
+}
+#overlay, #overlay1,
 #overlay2,
 #overlay3,
 #overlay4,
 #overlay5,
 #overlay6,
 #overlay7 {
+     background-color: transparent;
      display: none;
-     color: black;
      width: 50%;
      position: absolute;
-     background-color: white;
      top: 110px;
      left: 100px;
      font-weight: bold;
@@ -100,4 +101,6 @@ footer {
      border-color: white;
      border: solid;
      padding-top: 0;
+     border-width: medium;
 }
+
