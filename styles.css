@@ -39,6 +39,9 @@
           transform: translateY(-15px);
      }
 }
+.word{
+     display: none;
+}
 
 .picture {
      padding-top: 16%;

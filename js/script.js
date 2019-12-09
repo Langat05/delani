@@ -1,29 +1,31 @@
 $(document).ready(function () {
-    $("#design-image").click(function () {
-        $("#design-image").hide();
-        $("#design").show();
+    $("#design").hide();
+    $(".designtoggle0 , .designtoggle1").click(function () {
+        $("#design").toggle();
+        $(".designtoggle0").hide();
     });
-    $("#design").click(function () {
-        $("#design").show();
-        $("#design-image").show();
+    $(".designtoggle1").click(function () {
+        $(".designtoggle0").show();
+        $(".designtoggle1").hide();
+    });
+    $("#development").hide();
+    $(".development-image, .development-image1").click(function () {
+        $("#development").toggle();
+        $(".development-image").hide();
+    });
+    $(".development-image1").click(function () {
+        $(".development-image").show();
+        $(".development-image1").hide();
     });
 
-    $("#development-image").click(function () {
-        $("#development-image").hide();
-        $("#development").show();
+    $("#product").hide();
+    $(".product-image1, .product1").click(function () {
+        $("#product").toggle();
+        $(".product-image1").hide();
     });
-    $("#development").click(function () {
-        $("#development").show();
-        $("#development-image").show();
-    });
-
-    $("#product-image").click(function () {
-        $("#product-image").hide();
-        $("#product").show();
-    });
-    $("#product").click(function () {
-        $("#product").show();
-        $("#product-image").show();
+    $(".product1").click(function () {
+        $(".product-image1").show();
+        $(".product1").hide();
     });
 
     /*Portfolio*/
