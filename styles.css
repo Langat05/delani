@@ -4,6 +4,27 @@
      background-size: cover;
      color: white;
 }
+.mouse{
+animation: pulse 5s infinite;
+padding-top: 2vh;
+animation-duration: 2s;
+animation-name: mymouse;
+}
+@keyframes mymouse{
+     0%,
+     20%,
+     50%,
+     80%,
+     100% {
+          transform: translateY(0);
+     }
+     40% {
+          transform: translateY(-30px);
+     }
+     60% {
+          transform: translateY(-15px);
+     }
+}
 
 .picture {
      padding-top: 16%;
@@ -78,10 +99,12 @@ footer {
      text-align: center;
 }
 
-.imagehover:hover{
+.imagehover:hover {
      opacity: 0.3;
 }
-#overlay, #overlay1,
+
+#overlay,
+#overlay1,
 #overlay2,
 #overlay3,
 #overlay4,
@@ -103,4 +126,3 @@ footer {
      padding-top: 0;
      border-width: medium;
 }
-
