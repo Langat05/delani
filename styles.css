@@ -1,23 +1,28 @@
 @import url('https://fonts.googleapis.com/css?family=Lato&display=swa');
-*{
-padding: 0;
-margin: 0;
-box-sizing: border-box;
-font-size: 20px;
+
+* {
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+     font-size: 20px;
 }
+
 .jumbotron {
      background-image: url(images/backgrounds/h_img.jpg);
      text-align: center;
      background-size: cover;
      color: white;
 }
-.mouse{
-animation: pulse 5s infinite;
-padding-top: 2vh;
-animation-duration: 3s;
-animation-name: mymouse;
+
+.mouse {
+     animation: pulse 5s infinite;
+     padding-top: 2vh;
+     animation-duration: 3s;
+     animation-name: mymouse;
 }
-@keyframes mymouse{
+
+@keyframes mymouse {
+
      0%,
      20%,
      50%,
@@ -25,9 +30,11 @@ animation-name: mymouse;
      100% {
           transform: translateY(0);
      }
+
      40% {
           transform: translateY(-30px);
      }
+
      60% {
           transform: translateY(-15px);
      }
