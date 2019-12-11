@@ -77,12 +77,16 @@ $(document).ready(function () {
         var name = $("input#name").val();
         var email = $("input#email").val();
         var message = $("textarea#comment").val();
-        if ($("input#name").val() && $("input#email").val()) {
+        if ($("input#name").val() || $("input#email").val()) {
             alert("Hey " + name + ", your message has been received. Thank you for reaching out to us.");
-        } else {
-            alert("Make sure you provide the correct details!");
+        } 
+        else if(name=="" && email==""){
+            alert("Please input your details")
         }
-
+        else {
+            alert("Make sure you provide the correct details!"); 
+        }
+     
     });
 
 });
